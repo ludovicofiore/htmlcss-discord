@@ -13,7 +13,7 @@
 
 .flex {
     display: flex;
-
+    align-items: center;
 }
 
 section {
@@ -21,9 +21,24 @@ section {
     padding: 50px 0;
 }
 
+
+/* regole di testo */
 a {
     text-decoration: none;
     color: white;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+li {
+    list-style-type: none;
 }
 
 /* regole link box */
@@ -60,9 +75,6 @@ header {
 .block-nav {
     width: 25%;
     padding: 5px;
-    /* DEBUG */
-    /* background-color: orange; */
-    /* border: 1px dotted black; */
 }
 
 #header-list {
@@ -78,17 +90,12 @@ header {
     text-align: right;
 }
 
-li {
-    list-style-type: none;
-}
-
 #first-section-header {
     padding: 20px 0;
 }
 
 /* regole seconda sezione header */
 #second-section-header {
-    /* DEBUG */
     height: 400px;
 }
 
@@ -96,16 +103,10 @@ li {
     width: 65%;
     margin: 0 auto;
     text-align: center;
-    /* DEBUG */
-    /* height: 300px;
-    background-color: palevioletred;
-    border: 1px dotted black; */
 }
 
 #header-title {
-    font-size: 40px;
     color: white;
-    margin-bottom: 20px;
 }
 
 #header-text {
@@ -125,10 +126,6 @@ li {
 /* regole prima/terza sezione */
 .image {
     width: 60%;
-    /* DEBUG */
-    /* background-color: skyblue;
-    border: 1px dotted black;
-    height: 400px; */
 }
 
 .image img {
@@ -138,22 +135,9 @@ li {
 
 .text {
     color: rgb(34, 38, 41);
-    padding-top: 40px;
     width: 40%;
-    /* DEBUG */
-    /* background-color: pink;
-    border: 1px dotted black;
-    height: 400px; */
 }
 
-.text h1 {
-    font-size: 40px;
-    margin-bottom: 20px;
-}
-
-.text p {
-    line-height: 1.5;
-}
 
 /* regole seconda sezione */
 .bg-grey {
@@ -166,17 +150,8 @@ li {
     color: rgb(34, 38, 41);
     line-height: 1.5;
     margin-bottom: 50px;
-    /* DEBUG */
-    /* background-color: green;
-    height: 700px;
-    border: 1px dotted black; */
 }
 
-#big-div-title {
-    font-size: 40px;
-    margin-bottom: 20px;
-    line-height: 1;
-}
 
 #big-div img {
     width: 100%;
@@ -185,8 +160,13 @@ li {
 }
 
 #big-div-subtitle {
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    margin: 0 auto;
     font-size: 30px;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 
@@ -202,10 +182,6 @@ footer {
 }
 #social {
     width: 35%;
-    /* DEBUG */
-    /* background-color: red;
-    height: 500px;
-    border: 1px dotted black; */
 }
 
 #social h2 {
@@ -232,10 +208,6 @@ footer {
     width: calc(65% / 4);
     color: white;
     line-height: 1.5;
-    /* DEBUG */
-    /* background-color: rgb(32, 179, 171);
-    height: 500px;
-    border: 1px dotted white; */
 }
 
 .credits h4 {
@@ -255,7 +227,4 @@ footer {
     align-items: center;
     margin-top: 30px;
     border-top: 2px solid rgb(113, 135, 217);
-    /* DEBUG */
-    /* background-color: aqua; */
-
 }
