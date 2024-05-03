@@ -65,7 +65,7 @@ header {
     /* border: 1px dotted black; */
 }
 
-ul {
+#header-list {
     display: flex;
     justify-content: space-evenly;
 }
@@ -197,24 +197,49 @@ footer {
 
 /* regole prima section footer */
 #first-footer {
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 50px;
-    border-bottom: 1px solid white;
 }
 #social {
     width: 35%;
     /* DEBUG */
-    background-color: red;
+    /* background-color: red;
     height: 500px;
-    border: 1px dotted black;
+    border: 1px dotted black; */
+}
+
+#social h2 {
+    color: rgb(113, 135, 217);
+}
+
+#language {
+    color: white;
+    margin-top: 20px;
+}
+
+#language img {
+    width: 5%;
+    height: auto;
+}
+
+#social-links {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
 }
 
 .credits {
     width: calc(65% / 4);
+    color: white;
+    line-height: 1.5;
     /* DEBUG */
-    background-color: rgb(32, 179, 171);
+    /* background-color: rgb(32, 179, 171);
     height: 500px;
-    border: 1px dotted white;
+    border: 1px dotted white; */
+}
+
+.credits h4 {
+    color: rgb(113, 135, 217);
 }
 
 /* regole seconda section footer */
@@ -224,19 +249,13 @@ footer {
 
 #block {
     width: 100%;
-    padding: 20px 0;
+    padding: 30px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 30px;
+    border-top: 2px solid rgb(113, 135, 217);
     /* DEBUG */
-    background-color: aqua;
+    /* background-color: aqua; */
 
-}
-
-.buttons {
-    padding: 5px;
-    /* DEBUG */
-    background-color: pink;
-    border: 1px dotted black;
 }
