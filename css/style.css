@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .container {
@@ -12,6 +13,7 @@
 
 .flex {
     display: flex;
+
 }
 
 section {
@@ -21,16 +23,37 @@ section {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
+/* regole link box */
+.link-box {
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.white-bg {
+    background-color: white;
+    color: black;
+}
+
+.dark-bg {
+    background-color: rgb(34, 38, 41);
+    color: white;
+}
 
 /* regole intestazione */
+header {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
 .block-nav {
     width: 25%;
     padding: 5px;
     /* DEBUG */
-    background-color: orange;
-    border: 1px dotted black;
+    /* background-color: orange; */
+    /* border: 1px dotted black; */
 }
 
 ul {
@@ -52,26 +75,41 @@ li {
 
 #first-section-header {
     padding: 20px 0;
-    /* DEBUG */
-    background-color: aquamarine;
 }
 
 /* regole seconda sezione header */
 #second-section-header {
     /* DEBUG */
-    background-color: blue;
     height: 400px;
 }
 
-#second-section-header div {
+#main-content-header {
     width: 65%;
     margin: 0 auto;
+    text-align: center;
     /* DEBUG */
-    height: 300px;
+    /* height: 300px;
     background-color: palevioletred;
-    border: 1px dotted black;
+    border: 1px dotted black; */
 }
 
+#header-title {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#header-text {
+    color: white;
+    line-height: 2;
+    padding: 0 60px;
+}
+
+#header-links {
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
 
 /* regole parte principale */
 
